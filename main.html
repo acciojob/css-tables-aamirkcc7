@@ -8,6 +8,67 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Styled Table</title>
+    <style>
+        table {
+            border-collapse: separate;
+            border-spacing: 0.5rem;
+            width: 60%;
+            margin: 50px auto;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 0.5rem;
+            text-align: left;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Emma</td>
+            <td>30</td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>Michael</td>
+            <td>28</td>
+            <td>Sydney</td>
+        </tr>
+        <tr>
+            <td>Sophia</td>
+            <td>22</td>
+            <td>Toronto</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
